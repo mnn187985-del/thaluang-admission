@@ -1,0 +1,397 @@
+{
+  "academic_years": [
+    {
+      "id": "ay-2570",
+      "year": 2570,
+      "title": "ประจำปีการศึกษา ๒๕๗๐",
+      "is_active": true,
+      "application_start": "2026-11-01T00:00:00.000Z",
+      "application_end": "2027-02-28T23:59:59.000Z"
+    }
+  ],
+  "majors": [
+    {
+      "id": "maj-pvc-1",
+      "code": "PVC-AUTO",
+      "name": "สาขาวิชาช่างยนต์",
+      "level": "pvc",
+      "quota_limit": 60,
+      "is_active": true,
+      "display_order": 1
+    },
+    {
+      "id": "maj-pvc-2",
+      "code": "PVC-MACH",
+      "name": "สาขาวิชาช่างกลโรงงาน",
+      "level": "pvc",
+      "quota_limit": 40,
+      "is_active": true,
+      "display_order": 2
+    },
+    {
+      "id": "maj-pvc-3",
+      "code": "PVC-WELD",
+      "name": "สาขาวิชาช่างเชื่อมโลหะ",
+      "level": "pvc",
+      "quota_limit": 30,
+      "is_active": true,
+      "display_order": 3
+    },
+    {
+      "id": "maj-pvc-4",
+      "code": "PVC-ELEC",
+      "name": "สาขาวิชาช่างไฟฟ้ากำลัง",
+      "level": "pvc",
+      "quota_limit": 60,
+      "is_active": true,
+      "display_order": 4
+    },
+    {
+      "id": "maj-pvc-5",
+      "code": "PVC-ELTN",
+      "name": "สาขาวิชาช่างอิเล็กทรอนิกส์",
+      "level": "pvc",
+      "quota_limit": 35,
+      "is_active": true,
+      "display_order": 5
+    },
+    {
+      "id": "maj-pvc-6",
+      "code": "PVC-COMP",
+      "name": "สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล",
+      "level": "pvc",
+      "quota_limit": 40,
+      "is_active": true,
+      "display_order": 6
+    },
+    {
+      "id": "maj-pvc-7",
+      "code": "PVC-ACCT",
+      "name": "สาขาวิชาการบัญชี",
+      "level": "pvc",
+      "quota_limit": 40,
+      "is_active": true,
+      "display_order": 7
+    },
+    {
+      "id": "maj-pvc-8",
+      "code": "PVC-LOGS",
+      "name": "สาขาวิชาการจัดการโลจิสติกส์",
+      "level": "pvc",
+      "quota_limit": 35,
+      "is_active": true,
+      "display_order": 8
+    },
+    {
+      "id": "maj-pvs-1",
+      "code": "PVS-MECH",
+      "name": "สาขาวิชาเทคนิคเครื่องกล",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 40,
+      "is_active": true,
+      "display_order": 10
+    },
+    {
+      "id": "maj-pvs-2",
+      "code": "PVS-PROD",
+      "name": "สาขาวิชาเทคนิคการผลิต",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 30,
+      "is_active": true,
+      "display_order": 11
+    },
+    {
+      "id": "maj-pvs-3",
+      "code": "PVS-WELD",
+      "name": "สาขาวิชาเทคโนโลยีการเชื่อมโครงสร้าง",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 25,
+      "is_active": true,
+      "display_order": 12
+    },
+    {
+      "id": "maj-pvs-4",
+      "code": "PVS-POWR",
+      "name": "สาขาวิชาไฟฟ้ากำลัง",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 40,
+      "is_active": true,
+      "display_order": 13
+    },
+    {
+      "id": "maj-pvs-5",
+      "code": "PVS-ELTN",
+      "name": "สาขาวิชาอิเล็กทรอนิกส์",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 30,
+      "is_active": true,
+      "display_order": 14
+    },
+    {
+      "id": "maj-pvs-6",
+      "code": "PVS-DIBZ",
+      "name": "สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 35,
+      "is_active": true,
+      "display_order": 15
+    },
+    {
+      "id": "maj-pvs-7",
+      "code": "PVS-ACCT",
+      "name": "สาขาวิชาการบัญชี",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 35,
+      "is_active": true,
+      "display_order": 16
+    },
+    {
+      "id": "maj-pvs-8",
+      "code": "PVS-LOGS",
+      "name": "สาขาวิชาการจัดการโลจิสติกส์และซัพพลายเชน",
+      "level": "pvs",
+      "track": "both",
+      "quota_limit": 30,
+      "is_active": true,
+      "display_order": 17
+    }
+  ],
+  "applicants": [
+    {
+      "id": "app-1",
+      "academic_year_id": "ay-2570",
+      "application_no": "Q70-0001",
+      "level_type": "pvc",
+      "photo_url": "/images/logo.png",
+      "title": "นาย",
+      "first_name": "สมชาย",
+      "last_name": "ใจดี",
+      "id_card_number": "1100200345678",
+      "birth_date": "2010-05-15",
+      "father_name": "นายสุรชัย ใจดี",
+      "father_age": 45,
+      "father_occupation": "เกษตรกรรม",
+      "mother_name": "นางสมศรี ใจดี",
+      "mother_age": 43,
+      "mother_occupation": "ค้าขาย",
+      "address_no": "45/2",
+      "address_moo": "3",
+      "address_soi": "-",
+      "address_road": "สายเอเชีย",
+      "subdistrict": "ท่าหลวง",
+      "district": "ท่าเรือ",
+      "province": "พระนครศรีอยุธยา",
+      "postal_code": "13130",
+      "phone_number": "0812345678",
+      "current_grade_level": "มัธยมศึกษาปีที่ 3",
+      "school_name": "โรงเรียนท่าเรือ 'นิตยานุกูล'",
+      "school_address": "อ.ท่าเรือ จ.พระนครศรีอยุธยา",
+      "gpax": 3.45,
+      "target_major_id": "maj-pvc-1",
+      "target_major_name": "สาขาวิชาช่างยนต์",
+      "target_major_second_id": "maj-pvc-4",
+      "target_major_second_name": "สาขาวิชาช่างไฟฟ้ากำลัง",
+      "referral_source": "ครูแนะแนว",
+      "pdpa_accepted": true,
+      "status": "pending",
+      "admin_remark": "เอกสารครบถ้วน รอการสัมภาษณ์รอบโควตา",
+      "created_at": "2026-11-03T10:59:43.436Z",
+      "updated_at": "2026-11-03T10:59:43.436Z"
+    },
+    {
+      "id": "app-2",
+      "academic_year_id": "ay-2570",
+      "application_no": "Q70-0002",
+      "level_type": "pvs_direct",
+      "photo_url": "/images/logo.png",
+      "title": "นางสาว",
+      "first_name": "กัญญาภัทร",
+      "last_name": "มั่นคง",
+      "id_card_number": "1100400567890",
+      "birth_date": "2007-08-20",
+      "father_name": "นายพงษ์ มั่นคง",
+      "father_age": 48,
+      "father_occupation": "รับจ้างทั่วไป",
+      "mother_name": "นางกาญจนา มั่นคง",
+      "mother_age": 46,
+      "mother_occupation": "พนักงานบริษัท",
+      "address_no": "128",
+      "address_moo": "5",
+      "address_soi": "เทศบาล 2",
+      "address_road": "-",
+      "subdistrict": "บ้านหมอ",
+      "district": "บ้านหมอ",
+      "province": "สระบุรี",
+      "postal_code": "18130",
+      "phone_number": "0898765432",
+      "current_grade_level": "ปวช.3",
+      "school_name": "วิทยาลัยเทคนิคท่าหลวงซิเมนต์ไทยอนุสรณ์",
+      "school_address": "อ.บ้านหมอ จ.สระบุรี",
+      "gpax": 3.82,
+      "previous_major": "ช่างไฟฟ้ากำลัง",
+      "target_major_id": "maj-pvs-4",
+      "target_major_name": "สาขาวิชาไฟฟ้ากำลัง",
+      "referral_source": "ศิษย์เก่า / ศึกษาต่อสถาบันเดิม",
+      "pdpa_accepted": true,
+      "status": "passed",
+      "admin_remark": "ผ่านการคัดเลือกโควตาผลการเรียนดีเด่น",
+      "created_at": "2026-11-04T10:59:43.436Z",
+      "updated_at": "2026-11-04T10:59:43.436Z"
+    },
+    {
+      "id": "app-3",
+      "academic_year_id": "ay-2570",
+      "application_no": "Q70-0003",
+      "level_type": "pvc",
+      "photo_url": "/images/logo.png",
+      "title": "นาย",
+      "first_name": "ธีรภัทร",
+      "last_name": "เจริญสุข",
+      "id_card_number": "1100500789012",
+      "birth_date": "2010-12-05",
+      "father_name": "นายภัทรดนัย เจริญสุข",
+      "father_age": 42,
+      "father_occupation": "ธุรกิจส่วนตัว",
+      "mother_name": "นางสุดา เจริญสุข",
+      "mother_age": 40,
+      "mother_occupation": "ค้าขาย",
+      "address_no": "99/1",
+      "address_moo": "1",
+      "address_soi": "-",
+      "address_road": "พหลโยธิน",
+      "subdistrict": "พระพุทธบาท",
+      "district": "พระพุทธบาท",
+      "province": "สระบุรี",
+      "postal_code": "18120",
+      "phone_number": "0865544332",
+      "current_grade_level": "มัธยมศึกษาปีที่ 3",
+      "school_name": "โรงเรียนพระพุทธบาท 'พลานุกูลวิทยา'",
+      "school_address": "อ.พระพุทธบาท จ.สระบุรี",
+      "gpax": 2.95,
+      "target_major_id": "maj-pvc-6",
+      "target_major_name": "สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล",
+      "target_major_second_id": "maj-pvc-7",
+      "target_major_second_name": "สาขาวิชาการบัญชี",
+      "referral_source": "โซเชียลมีเดีย (Facebook / TikTok)",
+      "pdpa_accepted": true,
+      "status": "incomplete",
+      "admin_remark": "เอกสารแสดงผลการเรียน (ปพ.1) ภาพไม่ชัดเจน กรุณาถ่ายหรือสแกนใหม่อีกครั้ง",
+      "created_at": "2026-11-05T10:59:43.436Z",
+      "updated_at": "2026-11-05T10:59:43.436Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "applicant_id": "app-1",
+      "document_type": "transcript",
+      "file_name": "ปพ1_สมชาย_ใจดี.pdf",
+      "file_path": "/uploads/sample_transcript.pdf",
+      "file_size": 460800,
+      "mime_type": "application/pdf",
+      "verification_status": "valid",
+      "uploaded_at": "2026-11-06T10:59:43.436Z"
+    },
+    {
+      "id": "doc-2",
+      "applicant_id": "app-1",
+      "document_type": "id_card_house_reg",
+      "file_name": "สำเนาบัตรประชาชน_สมชาย.jpg",
+      "file_path": "/uploads/sample_id_card.jpg",
+      "file_size": 327680,
+      "mime_type": "image/jpeg",
+      "verification_status": "valid",
+      "uploaded_at": "2026-11-06T10:59:43.436Z"
+    },
+    {
+      "id": "doc-3",
+      "applicant_id": "app-3",
+      "document_type": "transcript",
+      "file_name": "เกรด_5_ภาคเรียน.jpg",
+      "file_path": "/uploads/sample_transcript_blur.jpg",
+      "file_size": 184320,
+      "mime_type": "image/jpeg",
+      "verification_status": "invalid",
+      "reject_reason": "เอกสารไม่ชัดเจน ตัวหนังสือเบลอ ไม่เห็นเกรดสะสม",
+      "uploaded_at": "2026-11-06T10:59:43.436Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "his-1",
+      "applicant_id": "app-1",
+      "from_status": null,
+      "to_status": "pending",
+      "reason": "ผู้สมัครยื่นใบสมัครออนไลน์เรียบร้อยแล้ว",
+      "changed_by_name": "ระบบรับสมัคร",
+      "created_at": "2026-11-03T10:59:43.436Z"
+    },
+    {
+      "id": "his-2",
+      "applicant_id": "app-2",
+      "from_status": "pending",
+      "to_status": "passed",
+      "reason": "ผ่านการคัดเลือกโควตากรณีพิเศษ ผลการเรียนดีเด่น (GPAX 3.82)",
+      "changed_by_name": "เจ้าหน้าที่งานทะเบียน",
+      "created_at": "2026-11-04T10:59:43.436Z"
+    },
+    {
+      "id": "his-3",
+      "applicant_id": "app-3",
+      "from_status": "pending",
+      "to_status": "incomplete",
+      "reason": "เอกสารใบ ปพ.1 ไม่ชัดเจน ขอให้ส่งใหม่",
+      "changed_by_name": "เจ้าหน้าที่งานทะเบียน",
+      "created_at": "2026-11-05T10:59:43.436Z"
+    }
+  ],
+  "enrollments": [],
+  "admins": [
+    {
+      "id": "adm-1",
+      "email": "admin@thaluang.ac.th",
+      "full_name": "ผู้ดูแลระบบสูงสุด (Super Admin)",
+      "role": "super_admin",
+      "is_active": true,
+      "created_at": "2026-11-06T10:59:43.424Z"
+    },
+    {
+      "id": "adm-2",
+      "email": "registrar@thaluang.ac.th",
+      "full_name": "เจ้าหน้าที่งานทะเบียน",
+      "role": "registrar",
+      "is_active": true,
+      "created_at": "2026-11-06T10:59:43.424Z"
+    },
+    {
+      "id": "adm-3",
+      "email": "viewer@thaluang.ac.th",
+      "full_name": "ผู้อำนวยการ/ผู้บริหาร (ดูผลอย่างเดียว)",
+      "role": "viewer",
+      "is_active": true,
+      "created_at": "2026-11-06T10:59:43.424Z"
+    }
+  ],
+  "settings": {
+    "admission_status": {
+      "is_open": true,
+      "note": "เปิดรับสมัครรอบโควตาและกรณีพิเศษ ๒๕๗๐"
+    },
+    "max_upload_size_mb": 5,
+    "id_pattern": {
+      "pvc_prefix": "70201",
+      "pvs_prefix": "70301"
+    },
+    "notification_config": {
+      "line_enabled": false,
+      "email_enabled": false
+    }
+  }
+}
